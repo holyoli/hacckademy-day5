@@ -10,3 +10,10 @@ def square_numb(a_list):
         if type(each_element) is int and each_element > 0:
             square_list.append(each_element**2)
     return square_list
+
+def division(a,b,c):
+    counter = 0
+    for numbers in range(a,b):
+        if numbers%c==0:
+            counter = counter +1
+    return counter     
